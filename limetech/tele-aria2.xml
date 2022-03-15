@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>tele-aria2</Name>
+  <Repository>p3terx/tele-aria2</Repository>
+  <Registry>https://hub.docker.com/r/p3terx/tele-aria2/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/p3terx/tele-aria2/</Support>
+  <Project/>
+  <Overview>A Telegram bot for controlling your Aria2 server.&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/p3terx/tele-aria2/</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1666082660</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/config.json" Default="" Mode="rw" Description="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x793A;&#x4F8B;&#xFF1A;&#13;&#10;https://github.com/HouCoder/tele-aria2#configuration-file-example" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tele-aria2-conf.json</Config>
+</Container>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>wxedge</Name>
+  <Repository>onething1/wxedge</Repository>
+  <Registry>https://hub.docker.com/r/onething1/wxedge/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/onething1/wxedge/</Support>
+  <Project/>
+  <Overview>&#x7F51;&#x5FC3;&#x4E91;&#x5BB9;&#x5668;&#x9B54;&#x65B9;&#x81EA;&#x9002;&#x5E94;cpu&#x67B6;&#x6784;&#xFF08;&#x63A8;&#x8350;&#xFF09;&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/onething1/wxedge/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:18888]</WebUI>
+  <TemplateURL/>
+  <Icon>https://www.onethingcloud.com/v2-assets/images/favicon.ico</Icon>
+  <ExtraParams>--tmpfs /run --tmpfs /tmp --memory=2g --cpus=1.5</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1666084543</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x7F13;&#x5B58;&#x76EE;&#x5F55;" Target="/storage" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/wxedge</Config>
+</Container>

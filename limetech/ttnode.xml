@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ttnode</Name>
+  <Repository>tiptime/ttnode</Repository>
+  <Registry>https://hub.docker.com/r/tiptime/ttnode/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/tiptime/ttnode/</Support>
+  <Project/>
+  <Overview>&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/tiptime/ttnode/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:1024]</WebUI>
+  <TemplateURL/>
+  <Icon>https://tiptime.cn/assets/images/favicon/favicon.ico</Icon>
+  <ExtraParams>--hostname ttnode --memory=1g --cpus=1</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1666084480</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x7F13;&#x5B58;&#x76EE;&#x5F55;" Target="/mnt/data/ttnode" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/ttnode</Config>
+  <Config Name="Host Path 2" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="Host Path 3" Target="/host/proc" Default="" Mode="ro" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/proc</Config>
+</Container>
