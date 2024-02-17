@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>zerotier</Name>
-  <Repository>zerotier/zerotier-synology</Repository>
+  <Repository>zerotier/zerotier</Repository>
   <Registry>https://hub.docker.com/r/zerotier/zerotier-synology/</Registry>
   <Network>host</Network>
   <MyIP/>
@@ -21,7 +21,7 @@ https://hub.docker.com/r/zerotier/zerotier-synology/</Overview>
   <ExtraParams>--device=/dev/net/tun --cap-add=NET_ADMIN --cap-add=SYS_ADMIN</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1666084579</DateInstalled>
+  <DateInstalled>1708094861</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>

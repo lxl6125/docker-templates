@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>AList</Name>
+  <Repository>xhofe/alist:latest</Repository>
+  <Registry>https://hub.docker.com/r/xhofe/alist</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Xhofe/alist/issues</Support>
+  <Project>https://github.com/Xhofe/alist</Project>
+  <Overview>A file list program that supports multiple storage, and supports web browsing and webdav, powered by gin and React. English documents are translated using Google.You can click the Edit this page button below to help improve the translation&#xD;
+&#xD;
+Important: Initial password in the log.</Overview>
+  <Category>Cloud: Network:Web</Category>
+  <WebUI>http://[IP]:[PORT:5244]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/MyFaith/unraid-templates/master/alist/alist.xml</TemplateURL>
+  <Icon>https://pic.imgdb.cn/item/654c7a1cc458853aefb29f0f.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1708101321</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Web UI Port" Target="5244" Default="5244" Mode="tcp" Description="Web UI Port: 5244" Type="Port" Display="always" Required="false" Mask="false">5244</Config>
+  <Config Name="Data Path" Target="/mnt/data" Default="" Mode="rw" Description="Mount at /mnt/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data/</Config>
+  <Config Name="Data Path" Target="/opt/alist/data" Default="" Mode="rw" Description="Appdata Path" Type="Path" Display="advanced" Required="false" Mask="false">/mnt/disk1/appdata/alist/</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">0</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">0</Config>
+  <Config Name="UMASK" Target="UMASK" Default="" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">022</Config>
+</Container>
