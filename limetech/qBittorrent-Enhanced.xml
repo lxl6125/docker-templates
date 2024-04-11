@@ -19,7 +19,7 @@ https://hub.docker.com/r/superng6/qbittorrentee</Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1708173131</DateInstalled>
+  <DateInstalled>1712724055</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -28,5 +28,5 @@ https://hub.docker.com/r/superng6/qbittorrentee</Overview>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="&#x65F6;&#x533A;" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Shanghai</Config>
   <Config Name="WebUI &#x7AEF;&#x53E3;" Target="WEBUI_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8080</Config>
-  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;" Target="/config" Default="/mnt/disk1/appdata/qbittorrent" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/qbittorrentee</Config>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;" Target="/config" Default="/mnt/disk1/appdata/qBittorrent-Enhanced" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/qBittorrent-Enhanced</Config>
 </Container>

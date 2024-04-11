@@ -21,10 +21,10 @@ https://hub.docker.com/r/zerotier/zerotier-synology/</Overview>
   <ExtraParams>--device=/dev/net/tun --cap-add=NET_ADMIN --cap-add=SYS_ADMIN</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1708094861</DateInstalled>
+  <DateInstalled>1712687359</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;" Target="/var/lib/zerotier-one" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/zerotier-one</Config>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;" Target="/var/lib/zerotier-one" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/zerotier-one</Config>
   <Config Name="Network ID" Target="NETWORK_ID" Default="" Mode="" Description="Network ID of ZeroTier network to join, could be find on page: https://my.zerotier.com/network" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 </Container>

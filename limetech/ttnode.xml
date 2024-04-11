@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>ttnode</Name>
-  <Repository>tiptime/ttnode</Repository>
+  <Repository>registry.cn-hangzhou.aliyuncs.com/tiptime/ttnode:latest</Repository>
   <Registry>https://hub.docker.com/r/tiptime/ttnode/</Registry>
   <Network>host</Network>
   <MyIP/>
@@ -18,14 +18,16 @@ https://hub.docker.com/r/tiptime/ttnode/</Overview>
   <WebUI>http://[IP]:[PORT:1024]</WebUI>
   <TemplateURL/>
   <Icon>https://tiptime.cn/assets/images/favicon/favicon.ico</Icon>
-  <ExtraParams>--hostname ttnode --memory=1g --cpus=1</ExtraParams>
+  <ExtraParams>--hostname ttnode --cap-add SYS_RAWIO</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1666084480</DateInstalled>
+  <DateInstalled>1712723194</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="&#x7F13;&#x5B58;&#x76EE;&#x5F55;" Target="/mnt/data/ttnode" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/ttnode</Config>
-  <Config Name="Host Path 2" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/var/run/docker.sock</Config>
-  <Config Name="Host Path 3" Target="/host/proc" Default="" Mode="ro" Description="" Type="Path" Display="advanced-hide" Required="false" Mask="false">/proc</Config>
+  <Config Name="Host Path 2" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="Host Path 3" Target="/host/proc" Default="/proc" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/proc</Config>
+  <Config Name="Host Device 1" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/mem</Config>
+  <Config Name="Host Key 1" Target="container_name" Default="ttnode" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">ttnode</Config>
 </Container>
