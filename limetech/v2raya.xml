@@ -37,4 +37,5 @@ https://hub.docker.com/r/mzz2017/v2raya/</Overview>
   <Config Name="Host Path 1" Target="/lib/modules" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/lib/modules</Config>
   <Config Name="Host Path 2" Target="/etc/resolv.conf" Default="/etc/resolv.conf" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/resolv.conf</Config>
   <Config Name="Host Path 3" Target="/etc/v2raya" Default="/mnt/disk1/appdata/v2raya/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/v2raya/</Config>
+  <Config Name="&#x65E5;&#x5FD7;&#x7EA7;&#x522B;" Target="V2RAYA_LOG_LEVEL" Default="info" Mode="" Description="trace &amp;lt; debug &amp;lt; info &amp;lt; warn &amp;lt; error" Type="Variable" Display="always" Required="false" Mask="false">warn</Config>
 </Container>
