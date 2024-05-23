@@ -1,31 +1,29 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>AList</Name>
-  <Repository>xhofe/alist:latest</Repository>
+  <Repository>xhofe/alist:latest-ffmpeg</Repository>
   <Registry>https://hub.docker.com/r/xhofe/alist</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/Xhofe/alist/issues</Support>
-  <Project>https://github.com/Xhofe/alist</Project>
-  <Overview>A file list program that supports multiple storage, and supports web browsing and webdav, powered by gin and React. English documents are translated using Google.You can click the Edit this page button below to help improve the translation&#xD;
-&#xD;
-Important: Initial password in the log.</Overview>
-  <Category>Cloud: Network:Web</Category>
+  <Support/>
+  <Project/>
+  <Overview>&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x591A;&#x79CD;&#x5B58;&#x50A8;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x7528; Gin &#x548C; Solidjs&#x3002;</Overview>
+  <Category/>
   <WebUI>http://[IP]:[PORT:5244]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/MyFaith/unraid-templates/master/alist/alist.xml</TemplateURL>
+  <TemplateURL/>
   <Icon>https://pic.imgdb.cn/item/654c7a1cc458853aefb29f0f.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1712726946</DateInstalled>
+  <DateInstalled>1716481932</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/opt/alist/data " Default="/mnt/disk1/appdata/alist" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/alist</Config>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/opt/alist/data" Default="/mnt/disk1/appdata/alist" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/alist</Config>
+  <Config Name="Host Path 2" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data</Config>
   <Config Name="PUID" Target="PUID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="PGID" Target="PGID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">022</Config>
-  <Config Name="Host Path 2" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data</Config>
 </Container>
