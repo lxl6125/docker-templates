@@ -21,10 +21,11 @@ https://hub.docker.com/r/outlovecn/portainer-cn/</Overview>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1712725229</DateInstalled>
+  <DateInstalled>1736654227</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="Container Path 1" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/portainer-cn</Config>
   <Config Name="Host Path 2" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <TailscaleStateDir/>
 </Container>

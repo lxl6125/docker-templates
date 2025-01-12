@@ -21,8 +21,9 @@ https://hub.docker.com/r/p3terx/ariang/</Overview>
   <ExtraParams>--log-opt max-size=1m</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1708101907</DateInstalled>
+  <DateInstalled>1736654204</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
+  <TailscaleStateDir/>
 </Container>
