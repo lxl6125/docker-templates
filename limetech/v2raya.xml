@@ -23,20 +23,20 @@ https://hub.docker.com/r/mzz2017/v2raya/</Overview>
   <WebUI>http://[IP]:[PORT:2017]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/v2rayA/v2rayA/main/gui/public/img/icons/android-chrome-192x192.png</Icon>
-  <ExtraParams>--name v2raya</ExtraParams>
+  <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1736674200</DateInstalled>
+  <DateInstalled>1737633773</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Host Key 1" Target="V2RAYA_LOG_FILE" Default="/tmp/v2raya.log" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/tmp/v2raya.log</Config>
+  <Config Name="Host Key 1" Target="V2RAYA_LOG_FILE" Default="/tmp/v2raya.log" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/etc/v2raya/v2raya.log</Config>
   <Config Name="Host Key 2" Target="V2RAYA_V2RAY_BIN" Default="/usr/local/bin/v2ray" Mode="" Description="/usr/local/bin/v2ray or &#13;&#10;/usr/local/bin/xray" Type="Variable" Display="always" Required="false" Mask="false">/usr/local/bin/v2ray</Config>
   <Config Name="Host Key 3" Target="V2RAYA_NFTABLES_SUPPORT" Default="off" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">off</Config>
   <Config Name="Host Key 4" Target="IPTABLES_MODE" Default="legacy" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">legacy</Config>
   <Config Name="Host Path 1" Target="/lib/modules" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/lib/modules</Config>
   <Config Name="Host Path 2" Target="/etc/resolv.conf" Default="/etc/resolv.conf" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/resolv.conf</Config>
-  <Config Name="Host Path 3" Target="/etc/v2raya" Default="/mnt/disk1/appdata/v2raya/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/v2raya/</Config>
+  <Config Name="Host Path 3" Target="/etc/v2raya" Default="/mnt/disk1/appdata/v2raya/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/v2raya</Config>
   <Config Name="&#x65E5;&#x5FD7;&#x7EA7;&#x522B;" Target="V2RAYA_LOG_LEVEL" Default="info" Mode="" Description="trace &amp;lt; debug &amp;lt; info &amp;lt; warn &amp;lt; error" Type="Variable" Display="always" Required="false" Mask="false">warn</Config>
   <TailscaleStateDir/>
 </Container>

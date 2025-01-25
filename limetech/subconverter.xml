@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>subconverter</Name>
+  <Repository>tindy2013/subconverter:latest</Repository>
+  <Registry>https://hub.docker.com/r/tindy2013/subconverter</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>&#x5728;&#x5404;&#x79CD;&#x8BA2;&#x9605;&#x683C;&#x5F0F;&#x4E4B;&#x95F4;&#x8FDB;&#x884C;&#x8F6C;&#x6362;&#x7684;&#x5B9E;&#x7528;&#x7A0B;&#x5E8F;.&#xD;
+&#xD;
+https://hub.docker.com/r/tindy2013/subconverter</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1737631333</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <TailscaleStateDir/>
+</Container>

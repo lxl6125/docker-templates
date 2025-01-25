@@ -17,13 +17,13 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1736653985</DateInstalled>
+  <DateInstalled>1737633290</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/opt/alist/data" Default="/mnt/disk1/appdata/alist" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/alist</Config>
-  <Config Name="Host Path 1" Target="/data1" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data</Config>
-  <Config Name="Host Path 2" Target="/data2" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data</Config>
+  <Config Name="Host Path 1" Target="/disk1" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/disk1</Config>
+  <Config Name="Host Path 2" Target="/disk2" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/disk2</Config>
   <Config Name="PUID" Target="PUID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="PGID" Target="PGID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">022</Config>
