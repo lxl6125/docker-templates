@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>AList</Name>
+  <Repository>xhofe/alist:latest-ffmpeg</Repository>
+  <Registry>https://hub.docker.com/r/xhofe/alist</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/AlistGo/alist</Support>
+  <Project/>
+  <Overview>&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x591A;&#x79CD;&#x5B58;&#x50A8;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x7528; Gin &#x548C; Solidjs&#x3002;</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:5244]</WebUI>
+  <TemplateURL/>
+  <Icon>https://pic.imgdb.cn/item/654c7a1cc458853aefb29f0f.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1747759566</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/opt/alist/data" Default="/mnt/disk1/appdata/alist" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/alist</Config>
+  <Config Name="Host Path 1" Target="/disk1" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data1</Config>
+  <Config Name="Host Path 2" Target="/disk2" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data2</Config>
+  <Config Name="PUID" Target="PUID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="PGID" Target="PGID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="UMASK" Target="UMASK" Default="022" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">022</Config>
+  <TailscaleStateDir/>
+</Container>

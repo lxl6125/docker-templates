@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>portainer-ce</Name>
+  <Repository>6053537/portainer-ce:latest</Repository>
+  <Registry>https://hub.docker.com/r/6053537/portainer-ce</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/eysp/portainer-ce</Support>
+  <Project/>
+  <Overview>portainer-ce &#x4E2D;&#x6587;&#x6C49;&#x5316;&#x7248;&#xD;
+&#xD;
+https://hub.docker.com/r/6053537/portainer-ce</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:9000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://avatars.githubusercontent.com/u/22225832?s=200&amp;amp;v=4</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1747759771</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Path" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <TailscaleStateDir/>
+</Container>

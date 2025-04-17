@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>v2raya</Name>
+  <Repository>mzz2017/v2raya</Repository>
+  <Registry>https://hub.docker.com/r/mzz2017/v2raya/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://github.com/v2rayA/v2rayA</Support>
+  <Project/>
+  <Overview>A web GUI client of Project V which supports V2Ray, SS, SSR, Trojan and PingTunnel protocols &#x1F680;&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+&#xD;
+1&#x3001;V2RAYA_V2RAY_BIN &#x7684;&#x503C;&#x5E94;&#x5F53;&#x662F; /usr/local/bin/v2ray &#x6216; /usr/local/bin/xray&#xFF0C;&#x9ED8;&#x8BA4;&#x7684;&#x6838;&#x5FC3;&#x662F; xray&#x3002;&#xD;
+2&#x3001;&#x5982;&#x679C;&#x4F60;&#x7684;&#x5BBF;&#x4E3B;&#x7CFB;&#x7EDF;&#x4F7F;&#x7528;&#x539F;&#x751F;&#x7684; nftables&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x628A; V2RAYA_NFTABLES_SUPPORT &#x8BBE;&#x7F6E;&#x4E3A; on&#x3002;&#xD;
+3&#x3001;&#x5982;&#x679C;&#x4F60;&#x7684;&#x5BBF;&#x4E3B;&#x7CFB;&#x7EDF;&#x4F7F;&#x7528; iptables&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; IPTABLES_MODE &#x53D8;&#x91CF;&#x6765;&#x6307;&#x5B9A;&#x540E;&#x7AEF;&#xFF0C;&#x5C06;&#x8BE5;&#x53D8;&#x91CF;&#x7684;&#x503C;&#x8BBE;&#x7F6E;&#x4E3A; nftables &#x5C06;&#x4F7F;&#x7528; nft &#x540E;&#x7AEF;&#xFF0C;&#x8BBE;&#x7F6E;&#x4E3A; legacy &#x5C06;&#x4F7F;&#x7528;&#x4F20;&#x7EDF;&#x540E;&#x7AEF;&#x3002;&#xD;
+&#xD;
+https://hub.docker.com/r/mzz2017/v2raya/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:2017]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/v2rayA/v2rayA/main/gui/public/img/icons/android-chrome-192x192.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1747760012</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Key 1" Target="V2RAYA_LOG_FILE" Default="/tmp/v2raya.log" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/etc/v2raya/v2raya.log</Config>
+  <Config Name="Host Key 2" Target="V2RAYA_V2RAY_BIN" Default="/usr/local/bin/v2ray" Mode="" Description="/usr/local/bin/v2ray or &#13;&#10;/usr/local/bin/xray" Type="Variable" Display="always" Required="false" Mask="false">/usr/local/bin/v2ray</Config>
+  <Config Name="Host Key 3" Target="V2RAYA_NFTABLES_SUPPORT" Default="off" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">off</Config>
+  <Config Name="Host Key 4" Target="IPTABLES_MODE" Default="legacy" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">legacy</Config>
+  <Config Name="Host Path 1" Target="/lib/modules" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/lib/modules</Config>
+  <Config Name="Host Path 2" Target="/etc/resolv.conf" Default="/etc/resolv.conf" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/resolv.conf</Config>
+  <Config Name="Host Path 3" Target="/etc/v2raya" Default="/mnt/disk1/appdata/v2raya/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/v2raya</Config>
+  <Config Name="&#x65E5;&#x5FD7;&#x7EA7;&#x522B;" Target="V2RAYA_LOG_LEVEL" Default="info" Mode="" Description="trace &amp;lt; debug &amp;lt; info &amp;lt; warn &amp;lt; error" Type="Variable" Display="always" Required="false" Mask="false">warn</Config>
+  <TailscaleStateDir/>
+</Container>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Music-Tag-Web</Name>
+  <Repository>xhongc/music_tag_web:latest</Repository>
+  <Registry>https://hub.docker.com/r/xhongc/music_tag_web</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/xhongc/music-tag-web</Support>
+  <Project/>
+  <Overview>&#x300E;&#x97F3;&#x4E50;&#x6807;&#x7B7E;&#x300F;Web&#x7248;&#x662F;&#x4E00;&#x6B3E;&#x53EF;&#x4EE5;&#x7F16;&#x8F91;&#x6B4C;&#x66F2;&#x7684;&#x6807;&#x9898;&#xFF0C;&#x4E13;&#x8F91;&#xFF0C;&#x827A;&#x672F;&#x5BB6;&#xFF0C;&#x6B4C;&#x8BCD;&#xFF0C;&#x5C01;&#x9762;&#x7B49;&#x4FE1;&#x606F;&#x7684;&#x97F3;&#x4E50;&#x6807;&#x7B7E;&#x7F16;&#x8F91;&#x5668;&#x7A0B;&#x5E8F;&#xFF0C; &#x652F;&#x6301;FLAC, APE, WAV, AIFF, WV, TTA, MP3, M4A, OGG, MPC, OPUS, WMA, DSF, MP4&#x7B49;&#x97F3;&#x9891;&#x683C;&#x5F0F;&#x3002;&#xD;
+&#xD;
+https://github.com/xhongc/music-tag-web</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8001]</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1747759630</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;" Target="/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/music_tag_web</Config>
+  <Config Name="&#x5A92;&#x4F53;&#x76EE;&#x5F55;" Target="/app/media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data1/music</Config>
+  <TailscaleStateDir/>
+</Container>

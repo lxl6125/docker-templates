@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>openp2p-client</Name>
+  <Repository>openp2pcn/openp2p-client:latest</Repository>
+  <Registry>https://hub.docker.com/r/openp2pcn/openp2p-client/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://github.com/openp2p-cn/openp2p</Support>
+  <Project/>
+  <Overview>&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/openp2pcn/openp2p-client/</Overview>
+  <Category/>
+  <WebUI>https://console.openp2p.cn/device</WebUI>
+  <TemplateURL/>
+  <Icon>https://console.openp2p.cn/favicon.ico</Icon>
+  <ExtraParams>--cap-add=NET_ADMIN</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1747759742</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Device 1" Target="/dev/net/tun" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/net/tun</Config>
+  <Config Name="TOKEN" Target="OPENP2P_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <TailscaleStateDir/>
+</Container>
