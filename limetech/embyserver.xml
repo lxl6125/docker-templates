@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>embyserver</Name>
+  <Repository>lovechen/embyserver</Repository>
+  <Registry>https://hub.docker.com/r/lovechen/embyserver/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://lime-technology.com/forum/index.php?topic=45444.0</Support>
+  <Project/>
+  <Overview>embyserver &#x7279;&#x522B;&#x7248; &#x5B98;&#x6539;&#x81EA;&#x7528; &#x539F;&#x6C41;&#x539F;&#x5473; &#x4F4E;&#x8C03;&#x4F7F;&#x7528; &#x559C;&#x6B22;&#x8BF7;&#x6807;&#x661F; &#x8FD9;&#x73A9;&#x610F;&#x4E0D;&#x53EB;&#x5F00;&#x5FC3;&#x7248; &#x8C22;&#x8C22; &#x522B;&#x7528;&#x90A3;&#x4E48;&#x6076;&#x5FC3;&#x7684;&#x540D;&#x5B57;&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/lovechen/embyserver/</Overview>
+  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <WebUI>http://[IP]:[PORT:8096]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/MediaBrowser/Emby.Build/master/unraid-templates/emby/EmbyServer.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/MediaBrowser/Emby.Resources/master/images/Logos/logoicon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1666084173</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x7AEF;&#x53E3;" Target="8096" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8096</Config>
+  <Config Name="&#x6620;&#x5C04;&#x5F71;&#x89C6;&#x8D44;&#x6E90;&#x76EE;&#x5F55;" Target="/mnt" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/disk1/shared</Config>
+  <Config Name="UID" Target="UID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="GID" Target="GID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="GIDLIST" Target="GIDLIST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="&#x786C;&#x89E3;&#x9A71;&#x52A8;" Target="" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/dri</Config>
+  <Config Name="&#x8BBE;&#x7F6E;&#x65F6;&#x533A;" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Shanghai</Config>
+  <Config Name="&#x914D;&#x7F6E;&#x76EE;&#x5F55;" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/embyserver</Config>
+</Container>

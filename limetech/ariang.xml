@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ariang</Name>
+  <Repository>p3terx/ariang</Repository>
+  <Registry>https://hub.docker.com/r/p3terx/ariang/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/p3terx/ariang/</Support>
+  <Project/>
+  <Overview>AriaNg Docker image | A modern web frontend making aria2 easier to use | Aria2 WebUI&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/p3terx/ariang/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:6880]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/fanningert/unraid-docker-templates/master/fanningert/icons/aria2ariang.png</Icon>
+  <ExtraParams>--log-opt max-size=1m</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1744069099</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <TailscaleStateDir/>
+</Container>
