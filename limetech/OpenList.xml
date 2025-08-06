@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>AList</Name>
-  <Repository>xhofe/alist:latest-ffmpeg</Repository>
-  <Registry>https://hub.docker.com/r/xhofe/alist</Registry>
+  <Name>OpenList</Name>
+  <Repository>openlistteam/openlist:latest-ffmpeg</Repository>
+  <Registry>https://hub.docker.com/r/openlistteam/openlist</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/AlistGo/alist</Support>
+  <Support>https://github.com/OpenListTeam/OpenList</Support>
   <Project/>
-  <Overview>&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x591A;&#x79CD;&#x5B58;&#x50A8;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x7A0B;&#x5E8F;&#xFF0C;&#x4F7F;&#x7528; Gin &#x548C; Solidjs&#x3002;</Overview>
+  <Overview>OpenList &#x662F;&#x4E00;&#x4E2A;&#x6709;&#x97E7;&#x6027;&#x3001;&#x957F;&#x671F;&#x6CBB;&#x7406;&#x3001;&#x793E;&#x533A;&#x9A71;&#x52A8;&#x7684; AList &#x5206;&#x652F;&#xFF0C;&#x65E8;&#x5728;&#x9632;&#x5FA1;&#x57FA;&#x4E8E;&#x4FE1;&#x4EFB;&#x7684;&#x5F00;&#x6E90;&#x653B;&#x51FB;&#x3002;</Overview>
   <Category/>
   <WebUI>http://[IP]:[PORT:5244]</WebUI>
   <TemplateURL/>
-  <Icon>https://pic.imgdb.cn/item/654c7a1cc458853aefb29f0f.png</Icon>
+  <Icon>https://cdn.oplist.org/gh/OpenListTeam/Logo@main/logo.svg</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1747759566</DateInstalled>
+  <DateInstalled>1754410786</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/opt/alist/data" Default="/mnt/disk1/appdata/alist" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/alist</Config>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/opt/openlist/data" Default="/mnt/disk1/appdata/openlist" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/openlist</Config>
   <Config Name="Host Path 1" Target="/disk1" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data1</Config>
   <Config Name="Host Path 2" Target="/disk2" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data2</Config>
   <Config Name="PUID" Target="PUID" Default="0" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
