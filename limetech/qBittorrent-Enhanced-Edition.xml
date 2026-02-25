@@ -13,7 +13,7 @@
 &#xD;
 https://hub.docker.com/r/superng6/qbittorrentee</Overview>
   <Category/>
-  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <WebUI>http://[IP]:[PORT:8088]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/qbittorrent-icon.png</Icon>
   <ExtraParams/>
@@ -26,9 +26,8 @@ https://hub.docker.com/r/superng6/qbittorrentee</Overview>
   <Config Name="PUID" Target="PUID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="PGID" Target="PGID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
   <Config Name="&#x65F6;&#x533A;" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Shanghai</Config>
-  <Config Name="WebUI &#x7AEF;&#x53E3;" Target="WEBUIPORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="WebUI &#x7AEF;&#x53E3;" Target="WEBUIPORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8088</Config>
   <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;" Target="/config/qBittorrent" Default="/mnt/disk1/appdata/qBittorrent-Enhanced" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/qBittorrent-Enhanced-Edition</Config>
-  <Config Name="&#x4E0B;&#x8F7D;&#x76EE;&#x5F55;1" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data1/download</Config>
-  <Config Name="&#x4E0B;&#x8F7D;&#x76EE;&#x5F55;2" Target="/downloads2" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data2/download</Config>
+  <Config Name="&#x4E0B;&#x8F7D;&#x76EE;&#x5F55;" Target="/downloads" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data1/download</Config>
   <TailscaleStateDir/>
 </Container>

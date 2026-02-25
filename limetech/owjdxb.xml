@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>owjdxb</Name>
+  <Repository>ionewu/owjdxb:latest</Repository>
+  <Registry>https://hub.docker.com/r/ionewu/owjdxb</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <ReadMe/>
+  <Overview>&#x8282;&#x70B9;&#x5C0F;&#x5B9D;&#x662F;&#x4E00;&#x6B3E;&#x96C6;&#x5185;&#x7F51;&#x7A7F;&#x900F;&#x4E0E;&#x5F02;&#x5730;&#x7EC4;&#x7F51;&#x7684;&#x8FDC;&#x7A0B;&#x7BA1;&#x7406;&#x5DE5;&#x5177; https://www.ionewu.com</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:9118]</WebUI>
+  <TemplateURL/>
+  <Icon>https://cdn.ionewu.com/iepose_wap/favicon.ico</Icon>
+  <ExtraParams>--cap-add NET_ADMIN --cap-add SYS_ADMIN</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1772027610</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x5B58;&#x50A8;&#x8282;&#x70B9;&#x4FE1;&#x606F;" Target="/data/store" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/store</Config>
+  <Config Name="Host Device 1" Target="/dev/net/tun" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/net/tun</Config>
+  <Config Name="Disk1" Target="/disk1" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/data1</Config>
+  <Config Name="Disk2" Target="/disk2" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk2/data2</Config>
+  <TailscaleStateDir/>
+</Container>

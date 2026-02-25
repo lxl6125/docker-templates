@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>openp2p-client</Name>
-  <Repository>openp2pcn/openp2p-client:3.24.23</Repository>
+  <Repository>openp2pcn/openp2p-client:3.25.7</Repository>
   <Registry>https://hub.docker.com/r/openp2pcn/openp2p-client/</Registry>
   <Network>host</Network>
   <MyIP/>
