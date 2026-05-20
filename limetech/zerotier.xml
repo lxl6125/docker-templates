@@ -19,7 +19,7 @@ https://hub.docker.com/r/zerotier/zerotier/</Overview>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Spikhalskiy/docker-templates/master/images/zerotier_ico.png</Icon>
   <ExtraParams>--cap-add=NET_ADMIN --cap-add=SYS_ADMIN</ExtraParams>
-  <PostArgs/>
+  <PostArgs>Network ID</PostArgs>
   <CPUset/>
   <DateInstalled>1747760059</DateInstalled>
   <DonateText/>

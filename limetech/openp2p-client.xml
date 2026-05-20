@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>openp2p-client</Name>
-  <Repository>openp2pcn/openp2p-client:3.25.7</Repository>
+  <Repository>openp2pcn/openp2p-client:3.25.11</Repository>
   <Registry>https://hub.docker.com/r/openp2pcn/openp2p-client/</Registry>
   <Network>host</Network>
   <MyIP/>
@@ -25,5 +25,6 @@ https://hub.docker.com/r/openp2pcn/openp2p-client/</Overview>
   <Requires/>
   <Config Name="Host Device 1" Target="/dev/net/tun" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/net/tun</Config>
   <Config Name="TOKEN" Target="OPENP2P_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="&#x8BBE;&#x5907;&#x6807;&#x8BC6;" Target="OPENP2P_NODE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Unraid-lxl</Config>
   <TailscaleStateDir/>
 </Container>

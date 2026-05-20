@@ -24,5 +24,6 @@ https://hub.docker.com/r/6053537/portainer-ce</Overview>
   <DonateLink/>
   <Requires/>
   <Config Name="Host Path" Target="/var/run/docker.sock" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/var/run/docker.sock</Config>
+  <Config Name="&#x914D;&#x7F6E;&#x6587;&#x4EF6;" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/appdata/portainer/</Config>
   <TailscaleStateDir/>
 </Container>

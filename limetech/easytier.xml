@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>easytier</Name>
+  <Repository>easytier/easytier:latest</Repository>
+  <Registry>https://hub.docker.com/r/easytier/easytier</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/EasyTier/EasyTier</Support>
+  <Project/>
+  <ReadMe/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--cap-add NET_ADMIN --cap-add NET_RAW </ExtraParams>
+  <PostArgs>-i 10.10.10.1 -n 10.0.0.0/24 --network-name "Network Name" --network-secret "Password" -p tcp://tcp.ap-southeast-1.clawcloudrun.com:44583 -p tcp://public.easytier.top:11010 -p tcp://public2.easytier.cn:54321 -p txt://qtet-public.070219.xyz -p tcp://et.rice-awa.top:21145 -p https://et-public.lctn.site -p txt://et.foxs.de5.net -p tcp://et.sbgov.cn:11010 -p tcp://et3.sbgov.cn:11010 -p tcp://et4.sbgov.cn:11010 -p tcp://easytier.weiai.org.cn:11010 -p tcp://dy-et.teleseon.com:33010 -p tcp://ramon2009.dpdns.org:11010 -p tcp://183.230.36.171:11010 -p tcp://kelvon.duckdns.org:11010 -p tcp://et.akinachan.com:11010 -p tcp://mc.yqst.top:11010 -p tcp://et1.fuis.top:11010 -p tcp://sumnight.top:11012 -p tcp://boi.de5.net:11010 -p tcp://47.108.52.1:11012 -p tcp://47.92.208.217:11010 -p udp://43.139.65.49:11010 -p tcp://et.fpfast.top:48625 -p txt://qtet-public2.070219.xyz -p tcp://us.maple367.eu.org:11010 -p tcp://et.hongchenduzhe.cc.cd:25484 -p tcp://et2.sbgov.cn:11010 -p tcp://et.ziyii.top:11010 -p tcp://c.oee.icu:60006</PostArgs>
+  <CPUset/>
+  <DateInstalled>1779275237</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="&#x65F6;&#x533A;" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Asia/Shanghai</Config>
+  <Config Name="Host Device 1" Target="/dev/net/tun" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/net/tun</Config>
+  <Config Name="Host Path 1" Target="/etc/machine-id" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="false" Mask="false">/etc/machine-id</Config>
+  <TailscaleStateDir/>
+</Container>
